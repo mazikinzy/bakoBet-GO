@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/mazikinzy/bakobet"
+	"github.com/mazikinzy/bakoBet-GO/experiment"
 )
 
 func main() {
-	msg := bakobet.Hello("Mazi")
+	msg := experiment.Hello("Mazi")
 	fmt.Println("%s, How are you?", msg)
 }
